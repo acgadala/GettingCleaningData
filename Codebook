@@ -1,0 +1,39 @@
+The data contained in this set is based on a Human Activity Recognition database built from the recordings of 30 subjects
+performing activites of of daily living while carrying a smartphone. 
+
+Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded Accelerometerelerometer and Gyroscopescope, we captured 3-axial linear Accelerometereleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+For each record in the dataset it is provided: 
+- Triaxial Accelerometereleration from the Accelerometerelerometer (total Accelerometereleration) and the estimated body Accelerometereleration. 
+- Triaxial Angular velocity from the Gyroscopescope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+The features selected for this database come from the Accelerometerelerometer and Gyroscopescope 3-axial raw signals tAccelerometer-XYZ and tGyroscope-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the Accelerometereleration signal was then separated into body and gravity Accelerometereleration signals (timeBodyAccelerometer-XYZ and timeGravityAccelerometer-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear Accelerometereleration and angular velocity were derived in time to obtain Jerk signals (timeBodyAccelerometerJerk-XYZ and timeBodyGyroscopeJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timeBodyAccelerometerMag, timeGravityAccelerometerMag, timeBodyAccelerometerJerkMag, timeBodyGyroscopeMag, timeBodyGyroscopeJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing freqBodyAccelerometer-XYZ, freqBodyAccelerometerJerk-XYZ, freqBodyGyroscope-XYZ, freqBodyAccelerometerJerkMag, freqBodyGyroscopeMag, freqBodyGyroscopeJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+The following variables are included:
+timeBodyAccelerometer-XYZ
+timeGravityAccelerometer-XYZ
+timeBodyAccelerometerJerk-XYZ
+timeBodyGyroscope-XYZ
+timeBodyGyroscopeJerk-XYZ
+timeBodyAccelerometerMag
+timeGravityAccelerometerMag
+timeBodyAccelerometerJerkMag
+timeBodyGyroscopeMag
+timeBodyGyroscopeJerkMag
+freqBodyAccelerometer-XYZ
+freqBodyAccelerometerJerk-XYZ
+freqBodyGyroscope-XYZ
+freqBodyAccelerometerMag
+freqBodyAccelerometerJerkMag
+freqBodyGyroscopeMag
+freqBodyGyroscopeJerkMag
+
+For each variable, '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
